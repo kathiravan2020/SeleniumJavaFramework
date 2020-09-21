@@ -1,25 +1,19 @@
 
-public class ReverseNumber {
+class ReverseNumber {
 
+	public static void main (String[] args){
 
+		StringBuffer str=new StringBuffer("Welcome to the JAVA world");
+		
+		System.out.println(str.reverse());
+		
 	
-	static int reversDigits(int num) 
-    { 
-        int rev_num = 0; 
-        while(num > 0) 
-        { 
-            rev_num = rev_num * 10 + num % 10; 
-            num = num / 10; 
-        } 
-        
-		return rev_num;
-    } 
-      
     // Driver code 
-    public static void main (String[] args)  
+/*    public static void main (String[] args)  
     { 
         int num = 123456789; 
-        System.out.println("Reverse of no. is " 
+        System.out.println("Reverse number is " 
                            + reversDigits(num)); 
-    } 
+    } */
+}
 }
