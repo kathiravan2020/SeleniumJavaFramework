@@ -3,7 +3,7 @@ class ReverseNumber {
 
 	public static void main (String[] args){
 		
-		//reversing string characters
+		//reversing the string characters
 
 		StringBuffer str=new StringBuffer("Welcome to the JAVA world");
 		
@@ -11,7 +11,7 @@ class ReverseNumber {
 		
 		System.out.println("**********************************");
 		
-	//reversing the numerical number
+	//reversing the number
     { 
       int num= 123456789, reverse= 0; 
       
