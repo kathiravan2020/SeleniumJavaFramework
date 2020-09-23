@@ -13,7 +13,7 @@ class ReverseNumber {
 		
 	//reversing the number
     { 
-      int num= 123456789, reverse= 0; 
+      int num= 123456, reverse= 0; 
       
       while(num!=0){
     	  
