@@ -13,20 +13,27 @@ class ReverseNumber {
 		
 	//reversing the number
     { 
-      int num= 123456, reverse= 0; 
-      
-      while(num!=0){
-    	  
-    	  
-    	  int digit=num%10;
-    	  
+      int num= 123456789, reverse= 0; 
+          while(num!=0){  	  
+    	  int digit=num%10;    	  
     	  reverse=reverse*10+digit;
-    	  
     	  num/=10;
-    	  
       }
-                
-        System.out.println("Number reverse  = " + reverse); 
+      System.out.println("Number reverse  = " + reverse); 
+      System.out.println("**********************************");
     } 
+    // duplicate letters 
+    String strg = "Applee";
+    char[] carray=strg.toCharArray();
+    for (int i=0; i<carray.length; i++){    	
+    	for (int j =i+1;j< carray.length; j++){
+    		if (carray[i]==carray[j]){
+    			System.out.println("Duplicate letter =  " + carray[j]);
+    		}
+    		
+    		
+    	}
+    }	
+    
 }
 }
