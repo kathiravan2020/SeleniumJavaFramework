@@ -89,7 +89,7 @@ public class FindDuplicateInArray {
 					
 				}
 		}
-		
+		System.out.println("***************************");
 		int num=1234, reverse = 0;
 		
 		while(num !=0){
@@ -101,16 +101,35 @@ public class FindDuplicateInArray {
 					
 		}
 		
+	{
+	int num=7;
+	int f=0;
+	int s=1;
+	int t = 0;
+	{
+	
+	while(num<7){
+	
+		t=f+s;
+		f=s;
+		s=t;
+		
+	}
+	
+	System.out.println(t);
 		
 		
+	
+	}
 		
-/*		System.out.println("****************************");
-			StringBuffer a=new StringBuffer("Welcome to the java world");
+	//System.out.println("****************************");
+			//StringBuffer a=new StringBuffer("Welcome to the java world");
 			
-			System.out.print(a.reverse());*/
+			//System.out.print(a.reverse());
 			
 		
 	}
+}
 
 			
 		
