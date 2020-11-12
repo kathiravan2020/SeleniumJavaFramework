@@ -14,7 +14,7 @@ public class LeapYearDemo {
 		System.out.print("Enter a year  = ");
 		year=scr.nextInt();
 		scr.close();
-		
+		//**************************************************
 		if (year % 4 == 0 && year % 100 !=0){
 			
 			System.out.println(year + "  Is a Leap Year" + "  ");
