@@ -23,7 +23,7 @@ class ReverseNumber {
       System.out.println("**********************************");
     } 
     // duplicate letters 
-    String strg = "Applee";
+    String strg = "Appleerddeff";
     char[] carray=strg.toCharArray();
     for (int i=0; i<carray.length; i++){    	
     	for (int j =i+1;j< carray.length; j++){
