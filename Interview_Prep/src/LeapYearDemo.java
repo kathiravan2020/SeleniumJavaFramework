@@ -15,7 +15,7 @@ public class LeapYearDemo {
 		year=scr.nextInt();
 		scr.close();
 		
-	//commit from github to jenkins========2nd time==========
+	//modified test scripts from eclipse and commit==========
 		
 		if (year % 4 == 0 && year % 100 !=0){
 			
